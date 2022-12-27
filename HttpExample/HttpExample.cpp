@@ -109,7 +109,7 @@ int main()
     WeatherInfo = WeatherInfo + Sunrise + ":" + JSONFind(response, Sunrise) + '\n';
     WeatherInfo = WeatherInfo + Sunset + ":" + JSONFind(response, Sunset) + '\n';
     WeatherInfo = WeatherInfo + lon + ":" + JSONFind(response, lon) + '\n';
-    WeatherInfo = WeatherInfo + lat + ":" + JSONFind(response, lat) + '\m';
+    WeatherInfo = WeatherInfo + lat + ":" + JSONFind(response, lat) + '\n';
     cout << WeatherInfo;
     ofstream File("Weather.txt", ios::app);
     if (File.is_open()) {
