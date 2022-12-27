@@ -1,0 +1,9 @@
+City:Odesa
+"id":804
+"country":"UA"
+"temp_min":7.75
+"temp_max":7.75
+"sunrise":1672119606
+"sunset":1672150542
+"lon":30.7326
+"lat":46.4775m
